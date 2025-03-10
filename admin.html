@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Analytics - AI Directory Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+</head>
+<body>
+    <header>
+        <a href="/" class="logo">AI Directory Hub</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#categories">Categories</a></li>
+                <li><a href="index.html#tools">Tools</a></li>
+                <li><a href="index.html#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="admin-container">
+        <h1>Analytics Dashboard</h1>
+        <div class="analytics-summary">
+            <div class="analytics-card">
+                <h2>Total Visits</h2>
+                <p id="totalVisits">Loading...</p>
+            </div>
+            <div class="analytics-card">
+                <h2>Unique Visitors</h2>
+                <p id="uniqueVisitors">Loading...</p>
+            </div>
+        </div>
+        <div class="analytics-charts">
+            <div class="chart-container">
+                <h2>Visits per Day (Last 30 Days)</h2>
+                <canvas id="visitsPerDayChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h2>Visits per Page</h2>
+                <canvas id="visitsPerPageChart"></canvas>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="terms-of-service.html" class="footer-link">Terms of Service</a>
+                <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
+                <a href="faq-vzuTgjZ1hn1n5TUWgAJWnXKvuuIwbE.html" class="footer-link">F.A.Q.</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 AI Directory Hub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="admin.js"></script>
+</body>
+</html>
+
